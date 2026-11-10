@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css?v=2" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Fond animé -->
@@ -255,23 +255,22 @@
                 </div>
                 <div class="projects">
                     <article class="project glass card" data-aos="fade-up">
-                        <div class="project-media">
+                        <a class="project-media" href="https://github.com/Trinyz7/french-ai-text-detector" target="_blank" rel="noopener">
                             <img src="assets/img/hortismatch.jpg" alt="Capture de HortisMatch" loading="lazy">
-                            <span class="badge-new">Nouveau</span>
-                        </div>
-                        <div class="project-body">
+                        </a>
+                            <div class="project-body">
                             <h3>HortisMatch</h3>
                             <p class="project-sub">Matching consultants / missions avec un score expliqué</p>
                             <p>Prototype d'outil de staffing qui associe en quelques secondes le bon consultant à la bonne mission, avec un score sur 100 entièrement expliqué (ce que le profil couvre, ce qui manque, détail du calcul). Le score hybride combine la similarité sémantique entre le CV et la fiche de mission (TF-IDF ou modèle multilingue sentence-transformers), les compétences extraites grâce à un référentiel FR/EN, la séniorité, la disponibilité et les langues, avec des pondérations réglables en direct. Les CV (PDF, DOCX, TXT) sont importés, analysés puis enregistrés dans une base SQLite, et un onglet dédié montre ce que l'outil a compris de chaque CV (transparence RGPD).</p>
                             <div class="tags">
                                 <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">scikit-learn</span><span class="tag">NLP</span><span class="tag">sentence-transformers</span><span class="tag">SQLite</span><span class="tag">PyMuPDF</span>
                             </div>
+                                <a class="btn btn-glass btn-sm" href="https://github.com/Trinyz7/hortismatch.git" target="_blank" rel="noopener"><i class="fab fa-github"></i> Voir le projet</a>                        
                         </div>
                     </article>
                     <article class="project glass card" data-aos="fade-up">
                         <a class="project-media" href="https://github.com/Trinyz7/french-ai-text-detector" target="_blank" rel="noopener">
                             <img src="assets/img/detecteur.jpg" alt="Capture du détecteur de texte généré par IA" loading="lazy">
-                            <span class="badge-new">Nouveau</span>
                         </a>
                         <div class="project-body">
                             <h3>Détecteur de texte généré par IA</h3>
@@ -348,6 +347,6 @@
         </main>
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="js/scripts.js?v=2"></script>
     </body>
 </html>
